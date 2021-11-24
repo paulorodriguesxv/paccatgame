@@ -6,6 +6,8 @@ This project is simple tutorial demonstrating how to use Smart Contracts and Rea
 
 [![alt text](https://img.youtube.com/vi/2NzaJrG2WhA/maxresdefault.jpg)](https://www.youtube.com/embed/2NzaJrG2WhA)
 
+Demo video: https://www.youtube.com/embed/2NzaJrG2WhA
+
 ### Basically, the rules are:
 
 1 - User should select from six to fifteen numbers
