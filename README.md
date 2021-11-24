@@ -1,4 +1,4 @@
-# PACCAT PROJECT
+# PACCAT - A blockchain project
 
 ## PacCat Game Project
 
