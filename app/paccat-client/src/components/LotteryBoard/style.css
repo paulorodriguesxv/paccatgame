@@ -1,0 +1,59 @@
+.escolhe-numero li {
+    color: #6f6f6f;
+    display: inline-block;
+    font-size: 22px;
+    font-weight: 700;
+    margin: 0 5px 35px 0;
+    text-decoration: none;
+}
+
+div.coluna-aposte {
+    background-color: #fff;
+}
+
+div.coluna-aposte .escolhe-numero li a{
+    background:#adc0c4;
+    border-radius:186px;
+    color:#fff;
+    cursor:pointer;
+    display:block;
+    font-family:futuraBold;
+    font-display:swap;
+    font-size:21px;
+    line-height:57px;
+    padding:0;
+    position:relative;
+    text-align:center;
+    text-decoration:none;
+    width:57px
+}
+
+div.coluna-aposte .container-numeros-selecionados .numeros-selecionados li {
+    color: #6f6f6f;
+    display: inline-block;
+    font-size: 22px !important;
+    font-weight: 700;
+    margin: 0 5px;
+    text-decoration: none;    
+}
+
+div.coluna-aposte .escolhe-numero li a:hover,div.coluna-aposte .escolhe-numero li a.selected{
+    background-color:#01ac66;
+    color:#fff;
+}
+
+div.coluna-aposte .container-numeros-selecionados .numeros-selecionados{
+    background:#fff;
+    border:none;
+    border-bottom:1px solid #00004d;
+    border-radius:0;
+    display:inline-block;
+    flex:1 auto;
+    float:none;
+    padding:1px;
+    padding-left:15px;
+    min-height:35px;
+    text-align:left;
+    vertical-align:middle;
+    width:286px
+}

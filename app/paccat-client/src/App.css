@@ -1,0 +1,87 @@
+@font-face {
+  font-family: 'ThemeFont';
+  src: url('assets/fonts/themefont.ttf') format('truetype'); /* Chrome 4+, Firefox 3.5, Opera 10+, Safari 3—5 */
+}    
+
+body {
+  background-image: url("./assets/images/Linecons_small-cloud-blue-v2.svg");
+  background-position: left center;
+  background-repeat: space repeat;;  
+  background-color:rgba(240, 240, 240, 0.0) !important; 
+  background-size: 128px 128px; 
+  color: #00004d !important;
+}
+
+.card-front {
+  background-image: url("./assets/images/card-blue-front.svg");  
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 200px;
+  width: 300px;
+  position: relative;
+  text-align: center;
+}
+
+.card-back {
+  background-image: url("./assets/images/card-blue-back.svg");  
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 200px;
+  width: 280px;
+  position: relative;
+  text-align: center;
+}
+
+a .card-front {
+  color:rgb(255, 255, 255)
+}
+
+a:hover .card-front {
+  color:rgb(211, 105, 44)
+}
+.card-front-text {
+  position: absolute;
+  bottom: 30px;
+  text-align: center;
+  margin-left: 55px;
+  font-family: "ThemeFont";
+  font-size: 12px;
+}
+
+.card-back-text {
+  position: absolute;
+  bottom: 30px;
+  text-align: center;
+  margin-left: 15px;
+  font-family: "ThemeFont";
+  font-size: 8px;
+  color: white;
+}
+
+.top-bar {
+  text-align: center;
+  background-color: #000000;
+}
+
+.rarity {
+  font-family: ThemeFont;
+}
+
+.rarity-title {
+  margin-bottom: .5rem;
+  font-weight: 500;
+  line-height: 1.2;  
+}
+
+.normal-text {
+  font-family: IBM Plex Mono,monospace;  
+  margin-bottom: 0;
+  font-size: 14px;
+  line-height: normal;
+}
+/*
+font-family: IBM Plex Mono,monospace;
+    text-transform: uppercase;
+    */

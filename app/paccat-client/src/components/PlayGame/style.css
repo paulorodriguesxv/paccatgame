@@ -1,0 +1,7 @@
+.rarity-cards li {
+    color: #6f6f6f;
+    display: inline-block;
+    font-weight: 700;
+    margin: 0 5px 35px 0;
+    text-decoration: none;
+}
